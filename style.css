@@ -44,10 +44,10 @@ main {
 
 .card__picture {
     width: 50%;
-    background-image: url(images/image-product-desktop.jpg);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
+}
+
+.card__picture img{
+    width: 100%;
 }
 
 .card__content {
@@ -128,13 +128,13 @@ main {
 @media (max-width: 600px) {
     .card {
         flex-direction: column;
-        height: 68.2rem;
+        height: 66.2rem;
         max-width: 34.4rem;
     }
 
     .card__picture {
         width: 100%;
-        height: 27rem;
+        height: 24rem;
     }
     
     .card__content {
